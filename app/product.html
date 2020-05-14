@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Watches | Интернет-магазин часов</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container flex-container">
+            <div class="logo header-logo">
+                <a href="/">
+                    <img src="img/logo.png" />
+                </a>
+            </div>
+            <div class="menu header-menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                бренды
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                аксессуары
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                распродажа
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                контакты
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                о нас
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                отзывы
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="cart">
+                <span class="cart-info">Моя корзина:</span>
+                <img src="img/basket.png" />
+                <span class="count">2</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="search">
+        <form>
+            <input name="search" type="text" required placeholder="Поиск по каталогу" />
+            <button type="submit">
+                <i class="material-icons">search</i>
+            </button>
+        </form>
+    </div>
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="#">
+                главная
+            </a>
+            <i class="sep material-icons">
+                keyboard_arrow_right
+            </i>
+            <a href="#">
+                каталог
+            </a>
+            <i class="sep material-icons">
+                keyboard_arrow_right
+            </i>
+            <a href="#">
+                мужские
+            </a>
+            <i class="sep material-icons">
+                keyboard_arrow_right
+            </i>
+            <span>
+                tissot v8 quartz
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-product">
+        <div class="container">
+            <div class="flex-container">
+                <div class="section-product_title">
+                    Tissot v8 quartz
+                </div>
+                <div class="section-product_add_to_cart">
+                    <span class="price">
+                        $360
+                    </span>
+                    <span class="price-sale">
+                        $440
+                    </span>
+                    <button class="add-to-cart">
+                        добавить в корзину
+                    </button>
+                    <div class="in-stock">
+                        <span>Магазин:</span>
+                        <span class="status-stock stock-success">в наличии</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-product_info">
+                <div class="section-product_info__sku">
+                    <span>
+                        Артикул:
+                    </span>
+                    <span class="sku">
+                        EF-500D-31
+                    </span>
+                </div>
+                <div class="section-product_info__rating">
+                    <i class="material-icons">
+                        star
+                    </i>
+                    <i class="material-icons">
+                        star
+                    </i>
+                    <i class="material-icons">
+                        star
+                    </i>
+                    <i class="material-icons">
+                        star
+                    </i>
+                    <i class="material-icons">
+                        star_border
+                    </i>
+                    <span class="reviews-product">
+                        (22)
+                    </span>
+                </div>
+            </div>
+            <div class="section-product_item">
+                <div class="flex-container">
+                    <div class="product-gallery">
+                        <div class="glide" id="product-carousel">
+                            <div class="glide__track" data-glide-el="track">
+                                <ul class="glide__slides">
+                                    <li class="glide__slide product-carousel_slide"
+                                        style="background-image: url('./img/watch4.png');">
+                                    </li>
+                                    <li class="glide__slide product-carousel_slide"
+                                        style="background-image: url('./img/watch1.png');">
+                                    </li>
+                                    <li class="glide__slide product-carousel_slide"
+                                        style="background-image: url('./img/watch2.png');">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="glide__arrows" data-glide-el="controls">
+                                <button class="glide__arrow product-carousel_arrow glide__arrow--left"
+                                    data-glide-dir="<">
+                                    <i class="material-icons">
+                                        keyboard_arrow_left
+                                    </i>
+                                </button>
+                                <button class="glide__arrow product-carousel_arrow glide__arrow--right"
+                                    data-glide-dir=">">
+                                    <i class="material-icons">
+                                        keyboard_arrow_right
+                                    </i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-description">
+                        <div class="product-description_title">
+                            Комплектация товара
+                        </div>
+                        <ul>
+                            <li>гарантийный талон</li>
+                            <li>инструкция на русском языке</li>
+                            <li>мультиязычная инструкция</li>
+                            <li>оригинальная упаковка (при наличии)</li>
+                            <li>фирменный пакет (при наличии)</li>
+                        </ul>
+                        <div class="product-delivery">
+                            <div class="product-delivery_city">
+                                Срок доставки Минск: в течение 1 дня
+                            </div>
+                            <div class="product-delivery_country">
+                                Срок доставки Беларусь: в течение 2 дней
+                            </div>
+                        </div>
+                        <div class="product-order">
+                            <button>
+                                заказать
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-delivery_info">
+                        <div class="product-delivery_info__title">
+                            Доставка
+                        </div>
+                        <ul>
+                            <li>
+                                <span>
+                                    Самовывоз Минск
+                                </span>
+                                <div class="delivery-free">
+                                    Бесплатно
+                                </div>
+                            </li>
+                            <li>
+                                <span>
+                                    Курьером по Минску
+                                </span>
+                                <div class="delivery-free">
+                                    Бесплатно
+                                </div>
+                            </li>
+                            <li>
+                                <span>
+                                    Курьером по РБ
+                                </span>
+                                <div class="delivery-pay">
+                                    Платно
+                                </div>
+                            </li>
+                            <li>
+                                <span>
+                                    Почтой по РБ
+                                </span>
+                                <div class="delivery-pay">
+                                    За наш счет
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="delivery_documents">
+                            <i class="material-icons">
+                                cloud_download
+                            </i>
+                            <a href="#" download>
+
+                                <span>
+                                    Скачать инструкцию
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="product-features">
+                    <div class="product-features_title">
+                        Описание
+                    </div>
+                    <div class="product-features_description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum deleniti aperiam quaerat exercitationem!
+                        Ipsa alias laboriosam aspernatur minus perspiciatis nemo porro aliquid.
+                        Magni ex autem nihil, eaque cum delectus nisi.
+                    </div>
+                    <ul>
+                        <li>
+                            <span class="product-features_list__title">
+                                Артикул
+                            </span>
+                            <span class="product-features_list__value">
+                                EF-500D-31
+                            </span>
+                        </li>
+                        <li>
+                            <span class="product-features_list__title">
+                                Браслет
+                            </span>
+                            <span class="product-features_list__value">
+                                нержавеющая сталь
+                            </span>
+                        </li>
+                        <li>
+                            <span class="product-features_list__title">
+                                Водозащита
+                            </span>
+                            <span class="product-features_list__value">
+                                водостойкость 100 м (WR 100)
+                            </span>
+                        </li>
+                        <li>
+                            <span class="product-features_list__title">
+                                Гарантия
+                            </span>
+                            <span class="product-features_list__value">
+                                24 месяца
+                            </span>
+                        </li>
+                        <li>
+                            <span class="product-features_list__title">
+                                Корпус
+                            </span>
+                            <span class="product-features_list__value">
+                                нержавеющая сталь
+                            </span>
+                        </li>
+                        <li>
+                            <span class="product-features_list__title">
+                                Механизм
+                            </span>
+                            <span class="product-features_list__value">
+                                кварцевый
+                            </span>
+                        </li>
+                        <li>
+                            <span class="product-features_list__title">
+                                Размер
+                            </span>
+                            <span class="product-features_list__value">
+                                диаметр 39 мм
+                            </span>
+                        </li>
+                        <li>
+                            <span class="product-features_list__title">
+                                Стекло
+                            </span>
+                            <span class="product-features_list__value">
+                                минеральное
+                            </span>
+                        </li>
+                        <li>
+                            <span class="product-features_list__title">
+                                Производитель
+                            </span>
+                            <span class="product-features_list__value">
+                                Швейцария, TISSOT S.A.
+                            </span>
+                        </li>
+                        <li>
+                            <span class="product-features_list__title">
+                                Финальная сборка
+                            </span>
+                            <span class="product-features_list__value">
+                                Швейцария
+                            </span>
+                        </li>
+                        <li>
+                            <span class="product-features_list__title product-features_list__adding">
+                                Дополнительная характеристика
+                            </span>
+                            <span class="product-features_list__value">
+                                <i class="material-icons">
+                                    keyboard_arrow_right
+                                </i>
+                            </span>
+                            <div class="product-features_adding__info">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quam deleniti tenetur
+                                    harum incidunt quibusdam rem numquam maiores dolores reprehenderit culpa cum ipsa
+                                    ipsum, at dignissimos dolorem sed perferendis exercitationem.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="recent-products">
+                    <div class="recent-products_title">
+                        недавно просмотренные
+                    </div>
+                    <div class="recent-products_list">
+                        <div class="recent-products_list__item">
+                            <a href="#">
+                                <div class="img-wrap">
+                                    <img src="img/watch1.png" />
+                                </div>
+                                <div class="recent-products_list__title">
+                                    casio diamond women
+                                </div>
+                            </a>
+                        </div>
+                        <div class="recent-products_list__item">
+                            <a href="#">
+                                <div class="img-wrap">
+                                    <img src="img/watch2.png" />
+                                </div>
+                                <div class="recent-products_list__title">
+                                    apple watch series 3
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-top">
+                <div class="flex-container">
+
+                    <div class="footer-time">
+                        <div class="footer-time_title">
+                            Время работы магазина:
+                        </div>
+                        <div class="footer-time_schedule">
+                            Вторник - Воскресенье с <span>11:00</span> до <span>20:00</span>
+                        </div>
+                    </div>
+
+                    <div class="footer-subcribe">
+                        <span class="footer-subscribe_title">
+                            Оставьте свой <span>email</span>, чтобы получать индивидуальные
+                            <span>скидки</span> и специальные <span>предложения</span>
+                        </span>
+                        <form>
+                            <input name="email" type="email" placeholder="Ваш email" required />
+                            <input type="submit" value="отправить" />
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer-menus">
+                <div class="flex-container">
+
+                    <div class="footer-menus_item footer-social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src='img/vk.svg' />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src='img/instagram.svg' />
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <img src='img/facebook.svg' />
+                                </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-menus_item">
+                        <div class="footer-menus_item__title">
+                            Best Watches
+                        </div>
+                        <ul>
+                            <li><a href="#">бренды</a></li>
+                            <li><a href="#">аксессуары</a></li>
+                            <li><a href="#">распродажа</a></li>
+                            <li><a href="#">контакты</a></li>
+                            <li><a href="#">отзывы</a></li>
+                            <li><a href="#">политика конфиденциальности</a></li>
+                            <li><a href="#">условия соглашения</a></li>
+                            <li><a href="#">возврат товара</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-menus_item">
+                        <div class="footer-menus_item__title">
+                            Преимущества
+                        </div>
+                        <ul>
+                            <li><a href="#">официальный дилер</a></li>
+                            <li><a href="#">только оригиналы</a></li>
+                            <li><a href="#">весь товар в наличии</a></li>
+                            <li><a href="#">официальная гарантия</a></li>
+                            <li><a href="#">бесплатная доставка</a></li>
+                            <li><a href="#">дисконтная программа</a></li>
+                            <li><a href="#">быстрый сервис</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-menus_item footer-about">
+                        <div class="footer-menus_item__title">
+                            О нас
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis deleniti quis dolores enim necessitatibus totam
+                            itaque nesciunt nostrum? Iste impedit error facere ea accusamus
+                            inventore molestiae pariatur temporibdus, sit alias!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis deleniti quis dolores enim necessitatibus totam
+                            itaque nesciunt nostrum? Iste impedit error facere ea accusamus
+                            inventore molestiae pariatur temporibus, sit alias!
+                        </p>
+                        <a href="#" class="more-about-btn">
+                            Читать больше
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="flex-container">
+                    <div class="footer-logo">
+                        <img src="img/logo.png" />
+                    </div>
+
+                    <div class="footer-year">
+                        bw.by, inc. 2009-2020
+                    </div>
+
+                    <span>
+                        &copy; Все права защищены
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <div class="scroll-top">
+        <i class="material-icons">
+            keyboard_arrow_up
+        </i>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

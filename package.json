@@ -1,0 +1,35 @@
+{
+  "name": "watchshop",
+  "version": "1.0.0",
+  "description": "What is it?",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomkovich/watchshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomkovich/watchshop/issues"
+  },
+  "homepage": "https://github.com/tomkovich/watchshop#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "@glidejs/glide": "^3.4.1",
+    "browser-sync": "latest",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-watch": "^4.1.1",
+    "node-sass": "^4.12.0",
+    "rimraf": "^2.3.1"
+  },
+  "devDependencies": {}
+}
